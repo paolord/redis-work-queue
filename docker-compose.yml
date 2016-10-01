@@ -6,8 +6,7 @@ services:
   mocha:
     image: node:argon
     working_dir: /app
-    command: node_modules/.bin/mocha --colors --reporter spec --slow 0 ./test/test.js
-    environment:
+    command: node_modules/.bin/mocha --compilers js:babel-core/register --colors --reporter spec --slow 0 ./test/test.js
       - REDIS_HOST=redis
       - REDIS_PORT=6379
     volumes:
