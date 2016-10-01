@@ -1,0 +1,28 @@
+{
+  "name": "redis-work-queue",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./lib/sindex.js",
+  "scripts": {
+    "test:local": "node_modules/.bin/mocha --colors --reporter spec --slow 0 ./test/test.js",
+    "test": "docker-compose up"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paolord/redis-work-queue.git"
+  },
+  "author": "angelopaolo.obispo@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/paolord/redis-work-queue/issues"
+  },
+  "homepage": "https://github.com/paolord/redis-work-queue#readme",
+  "dependencies": {
+    "ioredis": "^2.4.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.7.0",
+    "mocha": "^3.1.0"
+  }
+}
