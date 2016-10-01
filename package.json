@@ -6,7 +6,7 @@
   "scripts": {
     "build": "babel src --out-dir lib",
     "pretest": "babel src --out-dir lib",
-    "test:local": "node_modules/.bin/mocha --compilers js:babel-register --colors --reporter spec --slow 0 ./test/test.js",
+    "test:local": "node_modules/.bin/mocha --colors --reporter spec --slow 0 ./test/test.js",
     "test": "docker-compose up"
   },
   "repository": {

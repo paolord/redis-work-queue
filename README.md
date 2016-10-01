@@ -1,8 +1,7 @@
-# Redis Work queues
+# Redis Work Queue
+[![Travis](https://travis-ci.org/paolord/redis-work-queue.svg?maxAge=2592000)]() [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/paolord/redis-work-queue/master/LICENSE)
 
-### dead-simple distributed work queues in node.js using redis
-
-WIP
+dead-simple distributed work queues in node.js using redis (WIP)
 
 Install with:
 ```
