@@ -1,7 +1,7 @@
 {
   "name": "redis-work-queue",
-  "version": "0.1.1",
-  "description": "",
+  "version": "0.1.2",
+  "description": "dead-simple distributed work queues in node.js using redis",
   "main": "./lib/index.js",
   "scripts": {
     "build": "babel src --out-dir lib",
